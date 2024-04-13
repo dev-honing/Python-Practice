@@ -7,9 +7,12 @@
 
 def Greet(name, age):
     if age < 10:
-        print("안녕, " + name + "야")
+        print("안녕, " + name + "야~")
     elif 10 <= age < 20:
-        print(name + "님," "안녕하세요!")
+        print(name + "님, " "안녕하세요!")
     else:
-        print(name + "님", "안녕하십니까?")
+        print(name + "님, " + "안녕하십니까?")
         
+Greet("Dev", 9) # 안녕, Dev야~
+Greet("Honing", 10) # Honing님, 안녕하세요!
+Greet("BHN", 21) # BHN님, 안녕하십니까?
